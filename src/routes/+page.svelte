@@ -176,14 +176,14 @@ const setupPane = () => {
 		label: "frequency (a)",
 		min: 1,
 		max: 20,
-		step: 1,
+		step: 0.01,
 	});
 
 	curve.addBinding(params, "frequencyB", {
 		label: "frequency (b)",
 		min: 1,
 		max: 20,
-		step: 1,
+		step: 0.01,
 	});
 
 	curve.addBinding(params, "amplitudeA", {
